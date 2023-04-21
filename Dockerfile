@@ -7,6 +7,6 @@ RUN cd /var/www/html/ && unzip master.zip && mv 2048-master/* . && rm -rf 2048-m
 EXPOSE 80
 CMD ["/usr/sbin/nginx", "-c",  "/etc/nginx/nginx.conf"]
 
--------------------------------
+-----------------------------------
 
 github url :https://github.com/gabrielecirulli/2048
